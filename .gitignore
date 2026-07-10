@@ -1,0 +1,19 @@
+# Betriebssystem
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editoren / IDEs
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs & temporäre Dateien
+*.log
+tmp/
+temp/
+
+# Node (falls später Tooling ergänzt wird – aktuell nicht benötigt)
+node_modules/
+npm-debug.log*
