@@ -1,8 +1,9 @@
 # 📦 Peak Week Fulfillment
 
 Ein kleiner, spielbarer Web-Prototyp rund um ein **E-Commerce-Supply-Chain-Nischenproblem**.
-Du steuerst ein Logistikzentrum während einer **Aktionswoche** mit stark steigenden
-Bestellmengen und triffst jede Woche eine Entscheidung, die mehrere Kennzahlen verändert.
+Du sitzt im **Leitstand** eines Logistikzentrums während einer **Aktionswoche**: Auf deinem
+Bildschirm ploppen **Meldungen** aus den Abteilungen auf, und du wählst jede Woche eine von
+drei Reaktionen, die mehrere Kennzahlen verändert.
 
 Der Prototyp ist eine neutrale, europäisch anmutende E-Commerce- und Logistiksimulation
 und verwendet **keine** echten Unternehmensnamen, Logos oder Markenfarben.
@@ -31,17 +32,20 @@ oder Retouren zu stark steigen. Die Kunst liegt in der Balance zwischen
 
 ## 3. Funktionen
 
+- **Büro-/Leitstand-Perspektive:** Meldungen ploppen als Nachrichtenfenster mit Absender auf
+- Benachrichtigungs-Toasts, die weich ein- und ausblenden
 - 5 Runden (Wochen) mit je einem zufälligen Ereignis (ohne Wiederholung)
-- 8+ verschiedene Ereignisse mit je 3 Entscheidungen
+- 8+ verschiedene Meldungen mit je 3 Reaktionen
 - Qualitative Einschätzung (Kosten / Tempo / Risiko) **vor** der Entscheidung
 - Konkrete Auswirkungsanzeige **nach** der Entscheidung
-- 6 animierte KPI-Karten mit grün/rot-Blitzeffekten
-- Isometrisch anmutende Supply-Chain-Karte mit fahrenden Lieferwagen
-- Halbtransparente Statuskarten über jedem Gebäude
-- Statusleiste mit Woche, bearbeiteten Bestellungen, Netzwerkstatus & Fortschrittsbalken
-- Statistikbereich mit CSS-Balkendiagrammen (ohne externe Bibliothek)
-- Anleitung / Hilfe-Bereich
-- Endscreen mit Gesamtpunktzahl (0–100), Bewertungstitel, stärkster/schwächster Kennzahl
+- 6 KPI-Kacheln (Monospace-Werte) mit grün/rot-Blitzeffekten
+- Aufgeräumter, horizontaler **Netzwerk-Fluss** mit Live-Werten je Station
+- Kopfleiste mit Woche, bearbeiteten Bestellungen, Netzwerkstatus, Uhrzeit & Fortschritt
+- Kurze **Anleitung als Pop-up** (jederzeit über die Kopfleiste erreichbar)
+- **Persönlicher Abschlussbericht** statt Statistik: wertet deinen Führungsstil
+  (Investieren / Abwägen / Sparen) aus und formuliert ein individuelles Fazit
+- Endscreen mit Gesamtpunktzahl (0–100), Titel, Entscheidungs-Profil, stärkster/schwächster Kennzahl
+- Eigenständiges, neo-brutalistisches „Dispatch Board“-Design (keine Emojis, handgezeichnete SVG-Icons)
 - Vollständig responsive (Desktop & Mobile)
 - „Neues Spiel“ jederzeit; Neuladen startet ebenfalls neu
 
